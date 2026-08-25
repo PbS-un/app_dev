@@ -1,0 +1,1 @@
+import{y as n,J as e,v as t}from"./index-K3bo3MCI.js";function o(o){return null!=n.userInfo||(e(new UTSJSONObject({title:"需要登录",content:o,confirmText:"去登录",cancelText:"暂不登录",success:n=>{n.confirm&&t({url:"/pages/login/login"})}})),!1)}export{o as r};

@@ -1,0 +1,1 @@
+import{E as t,u as e,F as n}from"./index-K3bo3MCI.js";const a=new Set;function o(e,n){const a=t("cloud_refresh_at:"+e),o="number"==typeof a?a:0;return o>0&&Date.now()-o<n}function s(t){e("cloud_refresh_at:"+t,Date.now())}function r(t){n("cloud_refresh_at:"+t)}function u(t){return!a.has(t)&&(a.add(t),!0)}function f(t){a.delete(t)}export{r as a,f,o as i,s as m,u as t};
